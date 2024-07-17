@@ -45,5 +45,8 @@ features = [
   "uuid",
   "chrono",
   "migrate"
-] # Dev dependencies are used exclusively when running tests or examples They do not get included in the final application binary!  [dev-dependencies]
+]
+
+# Dev dependencies are used exclusively when running tests or examples They do not get included in the final application binary!
+[dev-dependencies]
 reqwest = "0.11"
