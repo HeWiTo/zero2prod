@@ -26,7 +26,7 @@ static TRACING: Lazy<()> = Lazy::new(|| {
             std::io::sink
         );
 
-        init_subscriber(subscriber)
+        init_subscriber(subscriber);
     };
 });
 
